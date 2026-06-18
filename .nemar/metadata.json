@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004973",
+  "source": "openneuro",
+  "source_id": "ds004973",
+  "title": "An fNIRS dataset for driving risk cognition of passengers in highly automated driving scenarios ",
+  "authors": {
+    "Xiaofei Zhang ": {},
+    "Qiaoya Wang ": {},
+    "Jun Li": {},
+    "Xiaorong Gao ": {},
+    "Bowen Li ": {},
+    "Bingbing Nie ": {},
+    "Jianqiang Wang ": {},
+    "Ziyuan Zhou ": {},
+    "Yingkai Yang ": {},
+    "Hong Wang": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004973.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "nirs"
+  ],
+  "datatypes": [
+    "nirs"
+  ]
+}
