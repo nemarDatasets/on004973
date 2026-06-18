@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004973",
-  "source": "openneuro",
-  "source_id": "ds004973",
+  "pipeline_stage": "enriched",
   "title": "An fNIRS dataset for driving risk cognition of passengers in highly automated driving scenarios ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Xiaofei Zhang ": {},
     "Qiaoya Wang ": {},
@@ -16,21 +16,78 @@
     "Yingkai Yang ": {},
     "Hong Wang": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004973.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004973",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004973",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004973",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "This fNIRS neuroimaging dataset captures prefrontal cortex activity from 20 participants (ages 21-46; 5 females, 15 males) during a driving simulator experiment involving 14 types of highly automated driving scenarios. Each participant completed 12 tasks across the 14 scenarios (240 total tasks; 20 tasks excluded due to recording errors). The study examines differences in brain activity between low-risk and high-risk driving episodes while considering participant demographics (age, sex, driving experience). Data were collected using an 8-channel fNIRS device with applications toward improving safety of the intended functionality (SOTIF) and developing brain-computer interface technologies for autonomous vehicle systems. Subjective evaluations of scenario dangerousness are documented in the participants.tsv file.",
+  "methods_description": "Functional near-infrared spectroscopy (fNIRS) data were acquired using an 8-channel fNIRS device from 20 participants (ages 21-46; 5 females, 15 males) during a driving simulator experiment. Each participant completed 12 tasks across 14 different highly automated driving scenarios. A total of 240 tasks were completed, with 20 tasks excluded due to recording errors. Subjective evaluations of scenario dangerousness were collected and documented in the participants.tsv file.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "prefrontal cortex"
+    },
+    {
+      "term": "automated driving"
+    },
+    {
+      "term": "risk cognition"
+    },
+    {
+      "term": "driving simulator"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "SOTIF"
+    },
+    {
+      "term": "autonomous vehicles"
+    },
+    {
+      "term": "hemodynamic response"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "vehicle safety"
+    }
+  ],
+  "source_hash": "548d2c1fdc479d384d74a73641d3b30e39345ed0216ac31c6932a56e0706c1ee"
 }
