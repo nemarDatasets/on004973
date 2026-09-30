@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "An fNIRS dataset for driving risk cognition of passengers in highly automated driving scenarios ",
-  "description": "This fNIRS neuroimaging dataset captures prefrontal cortex activity from 20 participants during 14 types of highly automated driving scenarios in a simulator environment. The study examines risk cognition in passengers across different age groups, sexes, and driving experience levels using an 8-channel fNIRS device. The dataset aims to identify differences in prefrontal cortex activation between low-risk and high-risk driving episodes to support safety-of-the-intended-functionality (SOTIF) improvements and brain-computer interface applications.",
-  "methods_description": "Data were collected from 20 participants (ages 21-46; 5 females, 15 males) using an 8-channel fNIRS device during a driving simulator experiment. Each participant completed 12 tasks across 14 highly automated driving scenario types, for a total of 240 tasks. Twenty tasks were excluded from analysis due to recording errors, resulting in 220 valid tasks for analysis.",
+  "description": "This dataset contains functional near-infrared spectroscopy (fNIRS) recordings of prefrontal cortex activity from 20 participants (ages 21-46; 5 female, 15 male) in a driving simulator. Participants experienced fourteen types of highly automated driving scenarios, and the dataset accompanies scenario data and subjective danger ratings. It is intended to support study of prefrontal activity differences between low-risk and high-risk driving episodes, with potential application to brain-computer interfaces and improving safety of the intended functionality (SOTIF).",
+  "methods_description": "An 8-channel fNIRS device recorded prefrontal cortex activity while 20 participants completed 12 driving simulator tasks each (240 planned tasks; 20 removed due to incorrect recording). Scenario data and subjective evaluations of the danger level of each VTD scenario segment are provided in participants.tsv.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,47 +23,31 @@
       "term": "fNIRS"
     },
     {
-      "term": "prefrontal cortex"
+      "term": "Spectroscopy, Near-Infrared",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019265"
+    },
+    {
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
     },
     {
       "term": "automated driving"
     },
     {
-      "term": "risk cognition"
-    },
-    {
-      "term": "neuroimaging"
+      "term": "driving risk cognition"
     },
     {
       "term": "driving simulator"
     },
     {
-      "term": "brain activity"
-    },
-    {
-      "term": "SOTIF"
-    },
-    {
-      "term": "passenger"
-    },
-    {
-      "term": "autonomous driving"
-    },
-    {
-      "term": "age differences"
-    },
-    {
-      "term": "sex differences"
+      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004973",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004973",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -76,6 +60,11 @@
       "identifier": "10.18112/openneuro.ds004973.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004973",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -84,7 +73,7 @@
     "nirs"
   ],
   "sizes": [
-    "2.5 GB (223 files)"
+    "2.31 GB (223 files)"
   ],
   "formats": [
     ".json",
