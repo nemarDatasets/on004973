@@ -21,5 +21,17 @@
       "DOI": "doi:10.18112/openneuro.ds004973.v1.0.1"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2",
+  "EthicsApprovals": [
+    "The content and procedures of this study were approved by the Institutional Review Board of Tsinghua University (Approval number: 20210102)."
+  ],
+  "Funding": [
+    "National Science Foundation of China (52072215, U1964203, 52221005 and 12361105)",
+    "National key R&D Program of China (2022YFB2503003)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.18112/openneuro.ds004973.v1.0.1",
+    "https://doi.org/10.1038/s41597-024-03353-6"
+  ],
+  "HowToAcknowledge": "Please cite the original data release and the associated paper (doi:10.1038/s41597-024-03353-6)."
 }

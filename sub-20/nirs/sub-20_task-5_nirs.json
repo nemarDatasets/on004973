@@ -14,5 +14,6 @@
     "TriggerChannelCount": 0,
     "NIRSChannelCount": 16,
     "NIRSSourceOptodeCount": 8,
-    "NIRSDetectorOptodeCount": 2
+    "NIRSDetectorOptodeCount": 2,
+    "ManufacturersModelName": "OctaMon"
 }
